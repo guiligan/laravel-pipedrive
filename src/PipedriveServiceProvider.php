@@ -1,4 +1,4 @@
-<?php namespace LasseRafn\Pipedrive;
+<?php namespace Guiligan\Pipedrive;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -1,4 +1,4 @@
-<?php namespace LasseRafn\Pipedrive\Responses;
+<?php namespace Guiligan\Pipedrive\Responses;
 
 use Illuminate\Support\Collection;
 

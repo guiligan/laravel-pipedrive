@@ -1,6 +1,6 @@
-<?php namespace LasseRafn\Pipedrive\Models;
+<?php namespace Guiligan\Pipedrive\Models;
 
-use LasseRafn\Pipedrive\Utils\UserModel;
+use Guiligan\Pipedrive\Utils\UserModel;
 
 class User extends UserModel
 {

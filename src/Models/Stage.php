@@ -1,6 +1,6 @@
-<?php namespace LasseRafn\Pipedrive\Models;
+<?php namespace Guiligan\Pipedrive\Models;
 
-use LasseRafn\Pipedrive\Utils\Model;
+use Guiligan\Pipedrive\Utils\Model;
 
 class Stage extends Model
 {

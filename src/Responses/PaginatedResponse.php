@@ -1,6 +1,6 @@
 <?php
 
-namespace LasseRafn\Pipedrive\Responses;
+namespace Guiligan\Pipedrive\Responses;
 
 class PaginatedResponse implements ResponseInterface
 {

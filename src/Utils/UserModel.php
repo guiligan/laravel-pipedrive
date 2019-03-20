@@ -1,4 +1,4 @@
-<?php namespace LasseRafn\Pipedrive\Utils;
+<?php namespace Guiligan\Pipedrive\Utils;
 
 class UserModel
 {

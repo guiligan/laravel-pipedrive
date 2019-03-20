@@ -1,19 +1,19 @@
-<?php namespace LasseRafn\Pipedrive;
+<?php namespace Guiligan\Pipedrive;
 
-use LasseRafn\Pipedrive\Models\Activity;
-use LasseRafn\Pipedrive\Models\ActivityType;
-use LasseRafn\Pipedrive\Models\Deal;
-use LasseRafn\Pipedrive\Models\File;
-use LasseRafn\Pipedrive\Models\Organization;
-use LasseRafn\Pipedrive\Models\OrganizationField;
-use LasseRafn\Pipedrive\Models\Person;
-use LasseRafn\Pipedrive\Models\Pipeline;
-use LasseRafn\Pipedrive\Models\Product;
-use LasseRafn\Pipedrive\Models\Stage;
-use LasseRafn\Pipedrive\Models\User;
-use LasseRafn\Pipedrive\Models\Webhook;
-use LasseRafn\Pipedrive\Utils\Model;
-use LasseRafn\Pipedrive\Utils\Request;
+use Guiligan\Pipedrive\Models\Activity;
+use Guiligan\Pipedrive\Models\ActivityType;
+use Guiligan\Pipedrive\Models\Deal;
+use Guiligan\Pipedrive\Models\File;
+use Guiligan\Pipedrive\Models\Organization;
+use Guiligan\Pipedrive\Models\OrganizationField;
+use Guiligan\Pipedrive\Models\Person;
+use Guiligan\Pipedrive\Models\Pipeline;
+use Guiligan\Pipedrive\Models\Product;
+use Guiligan\Pipedrive\Models\Stage;
+use Guiligan\Pipedrive\Models\User;
+use Guiligan\Pipedrive\Models\Webhook;
+use Guiligan\Pipedrive\Utils\Model;
+use Guiligan\Pipedrive\Utils\Request;
 
 class Pipedrive
 {

@@ -1,5 +1,5 @@
 {
-	"name": "lasserafn/laravel-pipedrive",
+	"name": "Guiligan/laravel-pipedrive",
 	"description": "",
 	"keywords": [
 		"laravel",
@@ -11,7 +11,7 @@
 	"authors": [
 		{
 			"name": "Lasse Rafn",
-			"email": "lasserafn@gmail.com"
+			"email": "Guiligan@gmail.com"
 		}
 	],
 	"require": {
@@ -23,13 +23,13 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"LasseRafn\\Pipedrive\\": "src"
+			"Guiligan\\Pipedrive\\": "src"
 		}
 	},
 	"extra": {
 		"laravel": {
 			"providers": [
-				"LasseRafn\\Pipedrive\\PipedriveServiceProvider"
+				"Guiligan\\Pipedrive\\PipedriveServiceProvider"
 			]
 		}
 	}

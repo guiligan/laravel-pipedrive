@@ -1,9 +1,9 @@
 <?php
 
-namespace LasseRafn\Pipedrive\Utils;
+namespace Guiligan\Pipedrive\Utils;
 
 use GuzzleHttp\Client;
-use LasseRafn\Pipedrive\Errors\CurlError;
+use Guiligan\Pipedrive\Errors\CurlError;
 
 class Request
 {

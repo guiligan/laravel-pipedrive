@@ -1,4 +1,4 @@
-<?php namespace LasseRafn\Pipedrive\Errors;
+<?php namespace Guiligan\Pipedrive\Errors;
 
 
 class CurlError extends \Exception

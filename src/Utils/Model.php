@@ -1,4 +1,4 @@
-<?php namespace LasseRafn\Pipedrive\Utils;
+<?php namespace Guiligan\Pipedrive\Utils;
 
 class Model
 {
@@ -206,7 +206,7 @@ class Model
 	 * @param array $fields
 	 *
 	 * @return mixed
-	 * @throws \LasseRafn\Pipedrive\Errors\CurlError
+	 * @throws \Guiligan\Pipedrive\Errors\CurlError
 	 */
 	public function update( array $fields = [] ) {
 		$data = $this->request->put( $this->entity, $this->id, $fields );
