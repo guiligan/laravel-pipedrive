@@ -10,7 +10,7 @@
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Lasse Rafn",
+			"name": "Guiligan",
 			"email": "Guiligan@gmail.com"
 		}
 	],
@@ -23,7 +23,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Guiligan\\Pipedrive\\": "src"
+			"Guiligan\\Pipedrive\\": "src\"
 		}
 	},
 	"extra": {
