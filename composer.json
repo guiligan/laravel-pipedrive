@@ -1,5 +1,5 @@
 {
-	"name": "Guiligan/laravel-pipedrive",
+	"name": "guiligan/laravel-pipedrive",
 	"description": "",
 	"keywords": [
 		"laravel",
@@ -23,7 +23,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Guiligan\\Pipedrive\\": "src\"
+			"Guiligan\\Pipedrive\\": "src/"
 		}
 	},
 	"extra": {

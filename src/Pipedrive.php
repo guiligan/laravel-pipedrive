@@ -4,6 +4,7 @@ use Guiligan\Pipedrive\Models\Activity;
 use Guiligan\Pipedrive\Models\ActivityType;
 use Guiligan\Pipedrive\Models\Deal;
 use Guiligan\Pipedrive\Models\File;
+use Guiligan\Pipedrive\Models\Filter;
 use Guiligan\Pipedrive\Models\Organization;
 use Guiligan\Pipedrive\Models\OrganizationField;
 use Guiligan\Pipedrive\Models\Person;
@@ -115,12 +116,19 @@ class Pipedrive
 		return new File( $this->request );
 	}
 
-	/**
-	 * @return Model|User()
-	 */
-	public function users() {
-		return new User( $this->request );
-	}
+    /**
+     * @return Model|User()
+     */
+    public function users() {
+        return new User( $this->request );
+    }
+
+    /**
+     * @return Model|Filter()
+     */
+    public function filters() {
+        return new Filter( $this->request );
+    }
 
 	/**
 	 * https://developers.pipedrive.com/docs/api/v1/#!/SearchResults/get_searchResults_field
